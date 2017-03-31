@@ -1,0 +1,267 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Segunda Aplicación</title>
+
+		<!--grupo CSS-->
+		<link rel="stylesheet" href="css/tema-app1.min.css"/>
+		<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+		<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+		<!--grupo JavaScript-->
+		<script src="js/jquery-1.11.2.min.js"></script>
+		<script src="js/jquery.mobile-1.4.5.min.js"></script>
+		<script src="js/acciones.js"></script>
+		<script src="phonegap.js"></script>
+		<script type="text/javascript">
+		
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+        </script>
+        <!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+	</head>
+
+	<body onLoad="MM_preloadImages('imagenes/motogvs.jpg','imagenes/apple-iphone-7-plus-r2.jpg')">
+
+		<div data-role="page" id="Principal" data-theme="a">
+			<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" 		data-back-btn-theme="b">
+				<h1>Telefonia Celular</h1>
+			</div>
+			<div data-role="main" class="ui-content">
+				<div data-role="collapsible" data-content-theme="false">
+					<h1>Celular: Motorola 4G Plus</h1>
+					<div>Es es un celular de Gama media alta<br>
+				</div>
+				<div><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image8','','imagenes/motogvs.jpg',1)"><img src="imagenes/9686-hero.png" width="50%" height="50%" id="Image8"></a>
+				</div>
+			</div>
+		</div>
+        <div data-role="main" class="ui-content">
+				<div data-role="collapsible" data-content-theme="false">
+					<h1>Celular: Iphone 7 Plus</h1>
+					<div>Es es un celular de Gama  alta<br>
+				</div>
+				<div><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image7','','imagenes/apple-iphone-7-plus-r2.jpg',1)"><img src="imagenes/iphone7-plus-black-select-2016.png" width="50%" height="50%" id="Image7"></a></div>
+			</div>
+		</div>
+
+		<div>
+			<ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+				<li class="ui-first-child ui-last-child">
+				</li>
+				<li class="ui-first-child ui-last-child">
+               	  <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                    	<h2>Definición de un telefono Celular</h2>
+			    </a>
+			  </li>
+				<li class="ui-first-child ui-last-child">
+					<a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+						<h2>La historia de la Telefonia Celular</h2>
+					</a>
+				</li>
+				<li class="ui-first-child ui-last-child">
+					<a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+						<h2>Clasificación de Celulares </h2>
+					</a>
+				</li>
+				<li class="ui-first-child ui-last-child">
+					<a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+						<h2>Compañias para el servicio Telefonico Celular</h2>
+					</a>
+				</li>
+				<li class="ui-first-child ui-last-child"></li>
+			</ul>
+            <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/19242559.jpg" alt="19242559" title="19242559" id="wows1_0"/></li>
+		<li><img src="data1/images/9686hero.png" alt="9686-hero" title="9686-hero" id="wows1_1"/></li>
+		<li><img src="data1/images/appleiphone7plusr2.jpg" alt="apple-iphone-7-plus-r2" title="apple-iphone-7-plus-r2" id="wows1_2"/></li>
+		<li><img src="data1/images/bja.jpg" alt="bja" title="bja" id="wows1_3"/></li>
+		<li><img src="data1/images/30anostelefonosmoviles.jpg" alt="30-anos-telefonos-moviles" title="30-anos-telefonos-moviles" id="wows1_4"/></li>
+		<li><img src="data1/images/descarga_1.jpg" alt="descarga (1)" title="descarga (1)" id="wows1_5"/></li>
+		<li><img src="data1/images/motorola_dynatac_00.jpg9ce0e6527651419c931408173a8bc306original.jpg" alt="Motorola_DynaTac_00.jpg9ce0e652-7651-419c-9314-08173a8bc306Original" title="Motorola_DynaTac_00.jpg9ce0e652-7651-419c-9314-08173a8bc306Original" id="wows1_6"/></li>
+		<li><img src="data1/images/multimedia22.jpg" alt="multimedia(22)" title="multimedia(22)" id="wows1_7"/></li>
+		<li><img src="data1/images/descarga.jpg" alt="descarga" title="descarga" id="wows1_8"/></li>
+		<li><a href="http://wowslider.net"><img src="data1/images/iphone7plusblackselect2016.png" alt="wowslider.net" title="iphone7-plus-black-select-2016" id="wows1_9"/></a></li>
+		<li><img src="data1/images/motogvs.jpg" alt="motogvs" title="motogvs" id="wows1_10"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="19242559"><span><img src="data1/tooltips/19242559.jpg" alt="19242559"/>1</span></a>
+		<a href="#" title="9686-hero"><span><img src="data1/tooltips/9686hero.png" alt="9686-hero"/>2</span></a>
+		<a href="#" title="apple-iphone-7-plus-r2"><span><img src="data1/tooltips/appleiphone7plusr2.jpg" alt="apple-iphone-7-plus-r2"/>3</span></a>
+		<a href="#" title="bja"><span><img src="data1/tooltips/bja.jpg" alt="bja"/>4</span></a>
+		<a href="#" title="30-anos-telefonos-moviles"><span><img src="data1/tooltips/30anostelefonosmoviles.jpg" alt="30-anos-telefonos-moviles"/>5</span></a>
+		<a href="#" title="descarga (1)"><span><img src="data1/tooltips/descarga_1.jpg" alt="descarga (1)"/>6</span></a>
+		<a href="#" title="Motorola_DynaTac_00.jpg9ce0e652-7651-419c-9314-08173a8bc306Original"><span><img src="data1/tooltips/motorola_dynatac_00.jpg9ce0e6527651419c931408173a8bc306original.jpg" alt="Motorola_DynaTac_00.jpg9ce0e652-7651-419c-9314-08173a8bc306Original"/>7</span></a>
+		<a href="#" title="multimedia(22)"><span><img src="data1/tooltips/multimedia22.jpg" alt="multimedia(22)"/>8</span></a>
+		<a href="#" title="descarga"><span><img src="data1/tooltips/descarga.jpg" alt="descarga"/>9</span></a>
+		<a href="#" title="iphone7-plus-black-select-2016"><span><img src="data1/tooltips/iphone7plusblackselect2016.png" alt="iphone7-plus-black-select-2016"/>10</span></a>
+		<a href="#" title="motogvs"><span><img src="data1/tooltips/motogvs.jpg" alt="motogvs"/>11</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">jquery slideshow</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+		</div>
+        <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+         	<div>
+            	<img src="imagenes/logo.png" width="46" height="46">
+            </div>
+            <div>
+            	<h4>Aplicacion Dos</h4>
+                <h4>Santiago Roberto Gordiano Ramírez</h4>
+            </div>
+        </div>
+        </div>
+        <div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+        	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar"  data-back-btn-theme="b">
+            	<h1>Definición de un Teléfono Celular</h1>
+            </div>
+            	<div>
+                	<p>Los Telefonos celulares fueron inventados con el proposito de que la gente pueda estar comunicada a travez de la voz, aparte de tener una facil transladación ya que lo podras llevar en la cartera, en el bolso, incluso en los bolsillos del pantalón o pollera, los seres humanos que formamos parte de esta comunidad conectada celularmente podemos llevar con nosotros y a cualquier lado este tipo de teléfono porque no pesan casi nada.<br>
+              	  </p>
+                  <div data-role="collapsible" data-content-theme="false">
+					<h1>Funciones Extra</h1>
+					<div data-role="content">
+                    <p>Algunas funciones extra que fueron colocadas al telefono celular fueron las de poder reproducir musica, tomar fotos, grabar videos, entrar a redes sociales entre otras cosas.</p>
+                    <img src="imagenes/descarga.jpg" width="50%" height="50%" aling="center"> </div>
+			</div>
+ <div data-role="collapsible" data-content-theme="false">
+					<h1>¿Para que es usado un celular?</h1>
+				<div data-role="content">
+					<p>Los Teléfonos moviles son usado para una variedad de cosas, una de ellas podria ser que puedan permanecer en contacto lo miembros de la familia, conducir un negocio y el principal motivo que puedan tener forma de hacer llamadas de emergencia.</p>
+                <img src="imagenes/434865623_screen0360x480.png" width="50%" height="50%" aling="center"> </div>
+			</div>
+  <div data-role="collapsible" data-content-theme="false">
+					<h1>Caracteristicas</h1>
+				<div data-role="content">
+					<p>Todos los teléfonos celulares tienen una variedad de caracteristicas en común, aunque los fabricantes buscan que no todos seas iguales y asi ellos puedan colocar algunas funciones extras para poder llamar la atención de los consumidores.</p>
+					<p>Ejemplo de algunas caracteriscas de celulares:</p>
+                <img src="imagenes/multimedia(22).jpg" width="50%" height="50%" aling="center"> </div>
+			</div>
+            	<div data-role="footer" data-theme="a" data-position="fixed">
+            	<h4>App2, SRGR</h4>
+            </div>
+        </div>
+        </div>
+		<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+        	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar"  data-back-btn-theme="b">
+            	<h1>La historia del Teléfono Celular</h1>
+            </div>
+            <div data-role="content" align="center">
+            	<div>
+            	  <p>La historia comienzaa principios del siglo XX cuando el inventor finlandés Eric Tigerstedt presentó una patente para el telefono plegable de bolsillo con un  microfono de carbono muy delgado.
+                  El celular realmente fue acelerado a su invencion cuando comenzó la Seguna Guerra Múndial.
+            	En ese tiempo se utilizaba la red 0G (Generación Cero), tales como el del sistema beel, estos sistemas no eran celulares, solo soportaban alguna llamadas simultáneas, aparte de tener un alto precio.</p></div>
+                <div data-role="collapsible" data-content-theme="false">
+					<h1>¿Cúal fue el primer celular?</h1>
+				<div data-role="content">
+					<p>El primer celular en crearce fue el Motorola dynaTAC 8000x,que fue creado en el año 1983 y puesto a la venta el 13 de Marzo del mismo año, su peso aproximado fue de 800 gramos, cuando el celular fue lanzado a la venta costaba 3995 dolares y la bateria solo duraba una hora en funcionamiento </p>
+                <img src="imagenes/Motorola_DynaTac_00.jpg9ce0e652-7651-419c-9314-08173a8bc306Original.jpg" width="50%" height="50%" aling="center"> </div>
+			</div>
+            <div data-role="collapsible" data-content-theme="false">
+					<h1>Creador del primer celular</h1>
+				<div data-role="content">
+					<p>El primer celular fue creado por la compania de motorola en el cual su diseño estaba muy grande y pesado para ser celular de bolsillo, aunque al ser el primer celular estaban encantados por lo que habian hecho.</p>
+                <img src="imagenes/descarga.png" width="50%" height="50%" aling="center"> </div>
+			</div>
+            <div data-role="collapsible" data-content-theme="false">
+					<h1>Quien llevo la primera señal</h1>
+				<div data-role="content">
+					<p>la primera señal o sistema de comunicaciones la llevo AT&T, motorola se puso en contacto con AT&T para producir un negocicio ya que vieron que llevaban bien el tema de intercomunicaciones personales</p>
+                <img src="imagenes/4526780_640px.jpg" width="50%" height="50%" aling="center"> </div>
+			</div>
+            <div data-role="footer" data-theme="a" data-position="fixed">
+           	  <h4>App2, SRGR</h4>
+            </div>
+        </div>
+        </div>
+		<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+        	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar"  data-back-btn-theme="b">
+            	<h1>Clasificación por gama</h1>
+            </div>
+            <div data-role="content" align="center">
+            	<div>
+                	<div data-role="collapsible" data-content-theme="false">
+					<h1>Gama Alta</h1>
+				<div data-role="content">
+					<p>Estos celulares se distinguen por tener un sistema operativo actualizado ademas de ser el mas avanzado de su serie o modelo y terner calidad al maximo en todos sus aspectos</p>
+                    <p> Ejemplo--></p>
+                <img src="imagenes/19242559.jpg" width="50%" height="50%" aling="center"> </div>
+			</div>
+                </div>
+                <div data-role="collapsible" data-content-theme="false">
+					<h1>Gama Media</h1>
+				<div data-role="content">
+					<p>La Gama media es un celular con actulizaciones de sistemas no tan amplios ya que al ser modelos medios de serie los descuidan un poco, estos celulares cuenta con una calidad "buena" en sus aspectos</p>
+                <img src="imagenes/descarga (1).jpg" width="50%" height="50%" aling="center"> </div>
+			</div>
+            <div data-role="collapsible" data-content-theme="false">
+					<h1>Gama baja</h1>
+				<div data-role="content">
+					<p>Los celulares de gama baja son aquellos que ya tienen un buen tiempo despues de su salida a la venta, al ser modelo antiguo sus cualidades no son avanzadas pero sigue cumpliendo con los requisitos de un celular común</p>
+                <img src="imagenes/bja.jpg" width="50%" height="50%" aling="center"> </div>
+			</div>
+            <div data-role="footer" data-theme="a" data-position="fixed">
+            	<h4>App2, SRGR</h4>
+            </div>
+        </div>
+        </div>
+	<div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+        	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar"  data-back-btn-theme="b">
+            	<h1>Compañia Telefonica Movil</h1>
+            </div>
+            <div data-role="content" align="center">
+            	<div>
+                	<div data-role="collapsible" data-content-theme="false">
+					<h1>Movistar</h1>
+				<div data-role="content">
+<img src="imagenes/2472272853_41462065ac_b.jpg" width="50%" height="50%" aling="center"> </div>
+			</div>
+            <div data-role="collapsible" data-content-theme="false">
+					<h1>Unefon</h1>
+				<div data-role="content">
+                <img src="imagenes/Unefon.png" width="50%" height="50%" aling="center"> </div>
+			</div>
+            <div data-role="collapsible" data-content-theme="false">
+					<h1>Telcel</h1>
+				<div data-role="content">
+                <img src="imagenes/plantes-telcel-pro.jpg" width="50%" height="50%" aling="center"> </div>
+			</div>
+            <div data-role="collapsible" data-content-theme="false">
+					<h1>AT&T</h1>
+				<div data-role="content">
+                <img src="imagenes/4526780_640px.jpg" width="50%" height="50%" aling="center"> </div>
+			</div>
+            <div data-role="footer" data-theme="a" data-position="fixed">
+            	<h4>App2, SRGR</h4>
+            </div>
+        </div>
+        </div>
+        </div>
+	</body>
+</html>
